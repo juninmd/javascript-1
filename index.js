@@ -1,10 +1,3 @@
 const age = 12;
-let ageGroup;
-
-// LONG FORM
-if (age > 18) {
-  ageGroup = "Adulto";
-} else {
-  ageGroup = "Criança";
-}
+const ageGroup = age > 18 ? "Adulto" : "Criança";
 console.log(ageGroup);
